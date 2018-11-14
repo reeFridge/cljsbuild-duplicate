@@ -3,7 +3,6 @@
 ## Problem description
 
 We have two files with identical names `input.js` but in separate namespaces and dirs
-
 but build script does not distinguish them and puts by the same path in the `target/cljsbuild-compiler-0` dir.
 
 ## Steps to reproduce
@@ -23,7 +22,6 @@ WARNING: 1 error(s), 0 warning(s)
 ERROR: JSC_DUPLICATE_INPUT. Duplicate input: /<path-to-project>/lighthouse/target/cljsbuild-compiler-0/input.js at (unknown source) line (unknown line) : (unknown column)
 Compiling ["/<path-to-project>/lighthouse/target/cljsbuild-main.js"] failed.
 java.lang.Exception: Closure compilation failed
-
 ```
 
 ### Expected result
